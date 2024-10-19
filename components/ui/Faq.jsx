@@ -1,4 +1,4 @@
-// import { Element } from "react-scroll";
+import { Element } from "react-scroll";
 // import { faq } from "./../../app/constants/index";
 import { faq } from "@/constants";
 import FaqItem from "./FaqItem.jsx";
@@ -10,7 +10,7 @@ const Faq = () => {
 
   return (
     <section>
-      <div name="faq" className="relative">
+      <Element name="faq" className="relative">
         <div className="container relative z-2 py-28">
           <div>
             <h3 className="h3 max-md:h5 max-w-640 max-lg:max-w-md mb-7 text-p4">
@@ -46,7 +46,7 @@ const Faq = () => {
 
           <div className="faq-lin_after absolute left-[calc(50%-1px)] top-0 -z-1 h-full w-0.5 bg-s2 max-lg:hidden" />
         </div>
-      </div>
+      </Element>
     </section>
   );
 };

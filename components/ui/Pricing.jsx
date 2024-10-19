@@ -1,4 +1,4 @@
-import { Element } from "react-scroll";
+// import { Element } from "react-scroll";
 import { useState } from "react";
 import clsx from "clsx";
 import CountUp from "react-countup";
@@ -11,7 +11,8 @@ const Pricing = () => {
 
   return (
     <section>
-      <Element name="pricing">
+      {/* linkscroll */}
+      <div name="pricing">
         <div className="container">
           <div className="max-w-960 pricing-head_before relative mx-auto border-l border-r border-s2 bg-s1/50 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16">
             <h3 className="h3 max-lg:h4 max-md:h5 z-3 relative mx-auto mb-14 max-w-lg text-center text-p4 max-md:mb-11 max-sm:max-w-sm">
@@ -160,7 +161,7 @@ const Pricing = () => {
             ))}
           </div>
         </div>
-      </Element>
+      </div>
     </section>
   );
 };
