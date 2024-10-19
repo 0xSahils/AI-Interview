@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import Download from "@/components/ui/Download";
-import Faq from "@/components/ui/Faq";
+// import Faq from "@/components/ui/Faq";
 import Footer from "@/components/ui/Footer";
 import Header from "@/components/ui/Header";
 import Hero from "@/components/ui/Hero";
@@ -23,7 +23,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Pricing />
-      <Faq />
+      {/* <Faq /> */}
       <Testimonials />
       <Download />
       <Footer />
