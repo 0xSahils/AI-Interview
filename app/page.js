@@ -1,23 +1,35 @@
 "use client";
 import { useRouter } from "next/navigation";
-
-import { Button } from "@/components/ui/button";
+import Download from "@/components/ui/Download";
+import Faq from "@/components/ui/Faq";
+import Footer from "@/components/ui/Footer";
+import Header from "@/components/ui/Header";
+import Hero from "@/components/ui/Hero";
+import Pricing from "@/components/ui/Pricing";
+import Testimonials from "@/components/ui/Testimonials";
+import "./globals.css";
+import Features from "@/components/ui/Features";
 
 export default function Home() {
-  const router = useRouter(); // Initialize the useRouter hook
+  const router = useRouter();
 
   const handleSubscribe = () => {
-    // Perform any subscription-related logic here if needed
-
-    // Redirect to the dashboard page
     router.push("/dashboard");
   };
 
   return (
-    <div>
-      <p>Subscribe</p>
-      <Button onClick={handleSubscribe}>Subscribe</Button>{" "}
-      {/* Add the click handler */}
+    <div className="overflow-hidden">
+      <Header />
+      <Hero />
+      <Features />
+      <Pricing />
+      <Faq />
+      <Testimonials />
+      <Download />
+      <Footer />
     </div>
   );
 }
+
+/* <p>Subscribe</p>
+<Button onClick={handleSubscribe}>Subscribe</Button>{" "} */
