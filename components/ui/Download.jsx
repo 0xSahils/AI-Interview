@@ -1,11 +1,11 @@
-import { Element } from "react-scroll";
+// import { Element } from "react-scroll";
 import { links, logos } from "../../constants/index";
 import { Marker } from "./Marker.jsx";
 
 const Download = () => {
   return (
     <section>
-      <Element
+      <div
         name="download"
         className="g7 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16"
       >
@@ -78,7 +78,7 @@ const Download = () => {
             ))}
           </ul> */}
         </div>
-      </Element>
+      </div>
     </section>
   );
 };
