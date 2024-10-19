@@ -5,7 +5,7 @@ import { eq } from "drizzle-orm";
 import React, { useState, useEffect } from "react";
 import QuestionsSection from "./_components/QuestionsSection";
 import RecordAnsSection from "./_components/RecordAnsSection";
-import { Button } from "@/components/ui/button";
+import Button from "@/components/ui/button";
 import Link from "next/link";
 
 const StartInterview = ({ params }) => {

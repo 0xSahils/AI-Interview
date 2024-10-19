@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Webcam from "react-webcam";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import Button from "@/components/ui/button";
 import useSpeechToText from "react-hook-speech-to-text";
 import { Mic } from "lucide-react";
 import { toast } from "sonner";

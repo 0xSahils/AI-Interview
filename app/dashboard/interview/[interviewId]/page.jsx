@@ -5,7 +5,7 @@ import { eq } from "drizzle-orm";
 import { db } from "@/utils/db";
 import Webcam from "react-webcam";
 import { Ghost, Lightbulb, WebcamIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import Button from "@/components/ui/button";
 import Link from "next/link";
 
 const Interview = ({ params }) => {

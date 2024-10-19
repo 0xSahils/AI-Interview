@@ -16,7 +16,7 @@ import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import moment from "moment";
 import { db } from "@/utils/db";
-import { Button } from "@/components/ui/button";
+import Button from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 
 const AddNewInterview = () => {

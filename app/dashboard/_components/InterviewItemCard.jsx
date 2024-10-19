@@ -1,5 +1,5 @@
 import { usePathname, useRouter } from "next/navigation";
-import { Button } from "@/components/ui/button";
+import Button from "@/components/ui/button";
 import React from "react";
 
 const InterviewItemCard = ({ interview }) => {

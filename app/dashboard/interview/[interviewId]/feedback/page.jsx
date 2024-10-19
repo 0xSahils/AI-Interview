@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/collapsible";
 import { ChevronsDown } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { Button } from "@/components/ui/button";
+import Button from "@/components/ui/button";
 
 const Feedback = ({ params }) => {
   const [feedbackList, setFeedbackList] = useState([]);
